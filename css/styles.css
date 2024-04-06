@@ -671,8 +671,7 @@ margin-bottom: auto;
 .futer-logo-container {
    /* margin-right: 120px; */
     display: flex;
-    
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -698,7 +697,7 @@ margin-bottom: auto;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     /* max-width: 264px; */
-    min-width: 288px;
+    min-width: 264px;
     /* margin-top: 16px; */
     margin-bottom: 72px;
 }
@@ -1199,6 +1198,7 @@ font-weight: 500;
 .footer-logo-container {
     flex-direction: column;
     margin-right: 24px;
+    
 }
 
 .footer-text {
@@ -1211,7 +1211,7 @@ font-weight: 500;
     justify-content: start;
 }
 
-.footer-contact-list {}
+
 
 .footer-contact-item {
     margin-bottom: 0;
@@ -1239,16 +1239,9 @@ font-weight: 500;
 
 .modal-field {
     margin-bottom: 16px;
-}
-
-.modal-field-checkbox {
+} 
     
-}
 
-.check-span {
-   
-    
-}
 
 .check-text span {
 position: static;   
@@ -1259,7 +1252,6 @@ position: static;
 .check-link {
     margin-left: 0px;
 }
-
 
 }
 
