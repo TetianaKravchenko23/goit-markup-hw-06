@@ -1242,7 +1242,7 @@ font-weight: 500;
 }
 
 .modal-field-checkbox {
-    align-items: center;
+    
 }
 
 .check-span {
@@ -1251,8 +1251,7 @@ font-weight: 500;
 }
 
 .chek-text span {
-position: relative; 
- top: 0;    
+position: staticgit;   
     
     
 }
